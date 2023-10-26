@@ -1,5 +1,5 @@
 /**
- * The template for displaying 404 page.
+ * Javascript
  *
  * @copyright  Copyright (c) 2023, Multimedijalni Sistemi
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License
