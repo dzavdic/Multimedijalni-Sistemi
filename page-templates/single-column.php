@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Single Column Template
-Template Post Type: post, page
+Template Post Type: post, page, product
 */
 
 get_header(); ?>
