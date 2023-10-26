@@ -1,0 +1,8 @@
+.site-footer {
+    display: flex;
+    width: 100%;
+    min-height: 150px;
+    background-color: rgb(166, 216, 255);
+    align-items: center;
+    justify-content: space-between;
+}

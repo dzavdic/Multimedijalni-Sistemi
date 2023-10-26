@@ -1,0 +1,131 @@
+/*
+Theme Name: Multimedijalni Sistemi
+Theme URI: https://yourwebsite.com
+Author: Multimedijalni Sistemi
+Author URI: https://yourwebsite.com
+Description: This is my first custom theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: multimedijalni-sistemi
+Tags: custom-background
+*/
+
+html, body {
+    margin: auto;
+    line-height: 1.65;
+    font-family: Georgia, Times, Times New Roman, serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.menu {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #073979;
+}
+
+.site-header {
+    border-bottom: 2px solid
+}
+
+.site-header-logo {
+    display: flex;
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: .25rem;
+    line-height: 1;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: black
+}
+
+.site-description {
+    margin-top: 0;
+    color: #8e8e8e;
+}
+
+ul.menu {
+    border-top: 10px solid #e71b1b;
+}
+
+.menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0c2a52;
+  }
+  
+  .menu li {
+     float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover:not(.active) {
+    background-color: #111111;
+  }
+  
+  .menu li a.active {
+    float: right;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+.site-content {
+    width: 70%;
+    float: left;
+}
+
+article {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    list-style: none;
+    margin-top: 2em;
+	font-size: 14px
+}
+
+@media only screen and (max-width: 600px) {
+    .site-content {
+        width:100%;
+    }
+    
+    article img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 10px;
+    }
+  }
+
