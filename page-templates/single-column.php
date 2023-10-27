@@ -21,7 +21,7 @@ get_header(); ?>
           <header class="entry-header">
             <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
           </header><!-- .entry-header -->
-          <b>OVO JE Single Column Template<b><br>
+          <b>OVO JE Single Column Template</b><br>
           <div class="entry-content">
             <?php the_content( esc_html__( 'Continue reading &rarr;', 'multimedijalni-sistemi' ) ); ?>
           </div><!-- .entry-content -->
