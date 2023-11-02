@@ -18,6 +18,13 @@
         <?php bloginfo( 'name' ); ?>
       </a>
       WordPress tema.
+      <?php
+        wp_nav_menu( array(
+        'theme_location' => 'menu-2',
+          ) );
+        
+          get_sidebar('footer');
+      ?>
   </footer><!-- #footer -->
 	<?php
 		wp_footer(); ?>

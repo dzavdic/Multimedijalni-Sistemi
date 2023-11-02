@@ -1,5 +1,6 @@
 .site-footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     width: 100%;
     min-height: 150px;
     background-color: rgb(255, 227, 136);
