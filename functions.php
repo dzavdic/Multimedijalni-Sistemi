@@ -70,6 +70,10 @@ function my_custom_theme_enqueue() {
 }
 add_action( 'wp_enqueue_scripts', 'my_custom_theme_enqueue' );
 
+/**
+ * Register Custom Post and Taxonomies
+ */
+
 function product_custom_post_type() {
     $args = array(
         'labels' => array(
